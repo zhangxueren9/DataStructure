@@ -1,8 +1,8 @@
 package node;
 
 public class Node {
-    Object elem;
-    Node(Object elem){
+    public Object elem;
+    public Node(Object elem){
         this.elem = elem;
     }
 }

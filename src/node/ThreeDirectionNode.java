@@ -1,9 +1,9 @@
 package node;
 
 public class ThreeDirectionNode extends Node {
-    Node father;
-    Node lChild;
-    Node rChild;
+    public Node father;
+    public Node lChild;
+    public Node rChild;
 
     ThreeDirectionNode(Object elem) {
         super(elem);

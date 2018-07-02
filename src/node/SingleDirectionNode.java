@@ -1,8 +1,8 @@
 package node;
 
 public class SingleDirectionNode extends Node {
-    Node next;
-    SingleDirectionNode(Object elem) {
+    public SingleDirectionNode next;
+    public SingleDirectionNode(Object elem) {
         super(elem);
     }
 }
