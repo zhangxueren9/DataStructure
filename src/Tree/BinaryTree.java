@@ -1,6 +1,7 @@
 package Tree;
 
-import java.io.BufferedReader;
+import node.Node;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -101,12 +102,11 @@ public class BinaryTree {
 }
 
 
-class BinaryNode {
-    Object elem = null;
+class BinaryNode extends Node {
     BinaryNode lchild = null;
     BinaryNode rchild = null;
 
     public BinaryNode(Object elem) {
-        this.elem = elem;
+        super(elem);
     }
 }
