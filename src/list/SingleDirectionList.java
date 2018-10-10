@@ -80,13 +80,6 @@ public class SingleDirectionList {
         }
 
         System.out.println(sdl.size);
-//        while (true) {
-//            SingleDirectionNode tmp = sdl.next();
-//            if (null == tmp) {
-//                break;
-//            }
-//            System.out.println(tmp.elem);
-//        }
         System.out.println(sdl.next().elem);
         System.out.println(sdl.next().elem);
         System.out.println(sdl.next().elem);
